@@ -129,12 +129,12 @@
 							<div class="col-sm-12">
 								<h2>User preferences</h2>
 							</div>
-							<div class="col-sm-3">
+							<!--<div class="col-sm-3">
 								<label>Nick</label>
 							</div>
-							<div class="col-sm-5">
-								<input class="input nick" name="nick" value="<%= defaults.nick %>">
-							</div>
+							<div class="col-sm-5">-->
+								<input type="hidden" class="input nick" name="nick" value="<%= defaults.nick %>">
+							<!--</div>-->
 							<div class="clearfix"></div>
 							<div class="col-sm-3">
 								<label>Username</label>
@@ -143,12 +143,12 @@
 								<input class="input username" name="username" value="<%= defaults.username %>">
 							</div>
 							<div class="clearfix"></div>
-							<div class="col-sm-3">
+							<!--<div class="col-sm-3">
 								<label>Real name</label>
 							</div>
-							<div class="col-sm-9">
-								<input class="input" name="realname" class="input" value="<%= defaults.realname %>">
-							</div>
+							<div class="col-sm-9">-->
+								<input type="hidden" class="input" name="realname" class="input" value="<%= defaults.realname %>">
+							<!--</div>-->
 							<div class="clearfix"></div>
 							<div class="col-sm-3">
 								<label>Password</label>
