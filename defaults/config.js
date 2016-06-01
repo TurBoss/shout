@@ -126,7 +126,7 @@ module.exports = {
 		// @type     string
 		// @default  "Freenode"
 		//
-		name: "Freenode",
+		name: "SpringRTS",
 
 		//
 		// Host
@@ -134,7 +134,7 @@ module.exports = {
 		// @type     string
 		// @default  "irc.freenode.org"
 		//
-		host: "irc.freenode.org",
+		host: "irc.jauriarts.com",
 
 		//
 		// Port
@@ -142,7 +142,7 @@ module.exports = {
 		// @type     int
 		// @default  6697
 		//
-		port: 6697,
+		port: 6667,
 
 		//
 		// Password
