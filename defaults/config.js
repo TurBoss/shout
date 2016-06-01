@@ -158,7 +158,7 @@ module.exports = {
 		// @type     boolean
 		// @default  true
 		//
-		tls: true,
+		tls: false,
 
 		//
 		// Nick
