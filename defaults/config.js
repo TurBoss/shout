@@ -32,7 +32,7 @@ module.exports = {
 	// @type     string
 	// @default  "0.0.0.0"
 	//
-	bind: undefined,
+	bind: "0.0.0.0",
 
 	//
 	// Set the default theme.
@@ -62,7 +62,7 @@ module.exports = {
 	// @type     boolean
 	// @default  true
 	//
-	prefetch: false,
+	prefetch: true,
 
 	//
 	// Prefetch URLs Image Preview size limit
@@ -84,7 +84,7 @@ module.exports = {
 	// @type     boolean
 	// @default  true
 	//
-	displayNetwork: true,
+	displayNetwork: false,
 
 	//
 	// Log settings
@@ -110,7 +110,7 @@ module.exports = {
 		// @type     string
 		// @default  "UTC+00:00"
 		//
-		timezone: "UTC+00:00"
+		timezone: "UTC+01:00"
 	},
 
 	//
@@ -166,7 +166,7 @@ module.exports = {
 		// @type     string
 		// @default  "shout-user"
 		//
-		nick: "shout-user",
+		nick: "springrts-user",
 
 		//
 		// Username
@@ -174,7 +174,7 @@ module.exports = {
 		// @type     string
 		// @default  "shout-user"
 		//
-		username: "shout-user",
+		username: "springrts-user",
 
 		//
 		// Real Name
@@ -182,7 +182,7 @@ module.exports = {
 		// @type     string
 		// @default  "Shout User"
 		//
-		realname: "Shout User",
+		realname: "Spring RTS User",
 
 		//
 		// Channels
@@ -190,7 +190,7 @@ module.exports = {
 		// @type     string
 		// @default  "#foo, #shout-irc"
 		//
-		join: "#foo, #shout-irc"
+		join: "#jauriarts, #main, #newbies"
 	},
 
 	//
