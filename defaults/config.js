@@ -126,7 +126,7 @@ module.exports = {
 		// @type     string
 		// @default  "Freenode"
 		//
-		name: "Spring rts",
+		name: "Freenode",
 
 		//
 		// Host
@@ -134,7 +134,7 @@ module.exports = {
 		// @type     string
 		// @default  "irc.freenode.org"
 		//
-		host: "irc.springrts.com",
+		host: "irc.freenode.org",
 
 		//
 		// Port
@@ -142,7 +142,7 @@ module.exports = {
 		// @type     int
 		// @default  6697
 		//
-		port: 6667,
+		port: 6697,
 
 		//
 		// Password
@@ -158,7 +158,7 @@ module.exports = {
 		// @type     boolean
 		// @default  true
 		//
-		tls: false,
+		tls: true,
 
 		//
 		// Nick
@@ -190,7 +190,7 @@ module.exports = {
 		// @type     string
 		// @default  "#foo, #shout-irc"
 		//
-		join: "#newbies, #main, #jauriarts"
+		join: "#foo, #shout-irc"
 	},
 
 	//
